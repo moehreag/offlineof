@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.moehreag.offline_optifine.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [],
+  "client": [
+    "CapeUtilsMixin",
+    "CrashReporterMixin",
+    "HttpUtilsMixin",
+    "VersionCheckThreadMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

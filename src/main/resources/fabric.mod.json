@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "offline-of",
+  "version": "${version}",
+  "name": "Offline OF",
+  "description": "Kill OptiFine's Telemetry!",
+  "authors": [
+    "moehreag"
+  ],
+  "contact": {
+    "sources": "https://github.com/moehreag/offlineof"
+  },
+  "license": "LGPL-3.0-or-later",
+  "icon": "assets/modid/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.moehreag.offline_optifine.OfflineOF"
+    ],
+    "preLaunch": [
+      "io.github.moehreag.offline_optifine.OfflineOFPreLaunch"
+    ],
+    "modmenu": [
+      "io.github.moehreag.offline_optifine.OfflineOFModmenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.8.9"
+  }
+}
